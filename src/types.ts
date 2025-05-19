@@ -17,7 +17,7 @@ type Period = {
 type CostsByMonth = {
   _applicationId: string;
   periods?: Period[];
-  costsByMonth?: { costs: string; month: string }[];
+  potentialEarningsByMonth?: { costs: string; month: string }[];
   _updatedDate: string;
   _definitionId: string;
   _createdDate: string;
